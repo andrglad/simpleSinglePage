@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+    color: #201b2d;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div, p, input, button, form, spam, a, ul, li{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    line-height: 1.6em;
+}
+
+.container{
+    /* border: 1px red dotted; */
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header{
+    background: rgb(90,75,130);
+    background: -moz-linear-gradient(139deg, rgba(90,75,130,1) 0%, rgba(75,63,106,1) 53%, rgba(59,50,83,1) 100%);
+    background: -webkit-linear-gradient(139deg, rgba(90,75,130,1) 0%, rgba(75,63,106,1) 53%, rgba(59,50,83,1) 100%);
+    background: linear-gradient(139deg, rgba(90,75,130,1) 0%, rgba(75,63,106,1) 53%, rgba(59,50,83,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5a4b82",endColorstr="#3b3253",GradientType=1);
+    padding-top: 100px;
+    color: white;
+
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.offer{
+    margin-top: 156px;
+    width: 480px;
+}
+
+.intro{
+    width: 340px;
+}
+
+.title span{
+    color: #48ed8e;
+}
+
+.btn{
+    background: #ed9619;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border-radius: 100px;
+    width: 205px;
+    padding: 20px 0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .5s ease;
+}
+
+.btn:hover{
+    background: #a66811;
+}
+
+.intro{
+    margin-top: 30px;
+    margin-bottom: 37px;
+}
+
+.desktop{
+    margin-top: 72px;
+    margin-bottom: 100px ;
+}
+
+.learn h2{
+    padding-top: 108px;
+    padding-bottom: 120px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+.section-title{
+    font-size: 30px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.skill{
+    width: 350px;
+    background: url(../img/icon1.jpg) no-repeat left top;
+    padding-left: 100px;
+
+}
+
+.skill_dest{
+    margin-top: 7px;
+}
+
+.skill-free{
+    widows: 380px;
+    background: url(../img/icon2.jpg) no-repeat left top;
+}
+
+.skill-change{
+    background: url(../img/icon3.jpg) no-repeat left top;
+}
+
+.mail{
+    background: #efecf4;
+    padding-top: 173px;
+    padding-bottom: 190px;
+}
+
+.input{
+    width: 474px;
+    border: 1px solid gray;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 100px;
+    min-height: 54px;
+    padding-left: 38px;
+    margin-right: 11px;
+    margin-top: 30px;
+}
+
+.btn-form{
+    border: 0;
+    cursor: pointer;
+    display: inline;
+
+}
+
+.footer{
+    padding: 33px 0;
+    background: #201b2d;
+
+}
+
+.credits{
+    font-style: 14px;
+    color: #d4cee3;
+}

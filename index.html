@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Верстка современного сайта</title>
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    
+  <header class="header" id="header">
+    <div class="container">
+      <img src="./img/logo.png" alt="WayUp" class="logo">
+      <div class="wrapper">
+        <div class="offer">
+          <h1 class="title">Я обучаюсь <span>верстке</span><br> и делаю это феерично</h1>
+          <p class="intro">Я прохожу курс от WAYUP и становлюсь лучше с каждым днем. Просто сказка!<br>Меня ждут дорогие заказы и творчество.</p>
+          <a href="#" class="btn">Узнать больше</a>    
+        </div>
+        <img src="./img/desktop.png" alt="Code desktop" class="desktop">
+      </div>
+    </div>
+  </header>
+  <section class="learn" id="learn">
+    <div class="container">
+      <h2 class="section-title">Зачем я обучаюсь</h2>
+      <div class="skills">
+        <div class="skill"><div class="skill_dest"><h3>Знать код</h3><p>Меня привлекает написание современного и красивого кода</p></div></div>
+        <div class="skill skill-free"><div class="skill_dest"><h3>Стать фрилансером</h3><p>Путешествовать, жить свободно и работать над креативными тасками</p></div></div>
+        <div class="skill skill-change"><div class="skill_dest"><h3>Изменить жизнь</h3><p>Я хочу создавать ценности, работая на себя и развиваться</p></div></div>
+      </div>
+    </div>
+  </section>
+  <section class="mail mail">
+    <div class="container">
+      <h2 class="section-title">Я буду вам писать</h2>
+      <form action="#" class="form">
+        <input type="email" name="email" class="input" required placeholder="your@email.com">
+        <button type="submit" class="btn btn-form">Узнать больше</button>
+      </form>
+    </div>
+  </section>
+  <footer class="footer" id="footer">
+    <div class="container">
+    <p class="credits">Все права защищены</p> 
+    </div>
+  </footer>
 </body>
 </html>
